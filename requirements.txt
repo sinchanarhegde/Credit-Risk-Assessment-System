@@ -1,0 +1,14 @@
+# IMPORTANT: replace the scikit-learn and lightgbm versions below with the ones printed at the end of your
+# Colab training run (notebook step 15), so the saved model loads exactly as it was trained.
+streamlit>=1.40
+pandas
+numpy
+scipy
+scikit-learn==1.8.0
+lightgbm==4.7.0
+shap
+sqlalchemy>=2.0
+joblib
+# only needed if you use MySQL:
+pymysql
+cryptography
